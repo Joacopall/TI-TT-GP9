@@ -1,0 +1,1469 @@
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+a {
+    text-decoration: none;
+
+}
+ul,li{
+    list-style-type: none;
+}
+header{
+    height: 25vh;
+    background-color: whitesmoke;
+}
+.header-sec{
+    height: 15vh;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.art-logo{
+    width: 20%;
+    height: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.logo-img{
+    height: 130px;
+}
+
+.art-form{
+    width: 50%;
+    align-items: center;
+    display:flex;
+}
+
+.art-logo-rigth{
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-img-rigth{
+    width: 300px;
+}
+
+.logo-img{
+    width: 200px;
+
+}
+
+#buscar{
+    width: 100%;
+    height: 30px;
+}
+
+.form-result{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.button-art{
+    background-color: white;
+    height: 37px;
+
+}
+
+.art-direccion {
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.art-nav {
+    width: 50%;
+    align-items: center;
+    flex-wrap: wrap;
+    display:flex;
+}
+#paginasindiv{
+    color: black;
+}
+
+.flex-r {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#sec-nav{
+    justify-content: flex-start;
+    height: 10vh;
+}
+
+.nav-items{
+    width: 100%;
+    display: flex;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    justify-content: space-between;
+    height: 200px;
+    color: black;
+}
+
+.nav-items ul{
+    width: 100%;
+    justify-content: space-evenly;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+#main-ft{
+    background-image: url('../img/home-back.jpg');
+    height: 50vh;
+}
+.button-ft-p{
+      justify-content: center;
+      height: 25px;
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      vertical-align: auto;
+}
+.button-ft{
+      font-size: 20px;
+      height: 80px;
+      background-color: rgba(91, 91, 93, 0.6);
+      border-radius: 50px;
+      border: 3px rgba(0, 0, 0, 0.75) solid;
+      padding: 10px;
+}
+
+#tit-log{
+    font-family: sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5em;
+}
+
+    
+
+
+.headers {
+    width: 100vw;
+    background-color: gray;
+    height: 200px;
+}
+
+.footers {
+    background-color: gray;
+    flex-direction: row;
+}
+.contenedornombres{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-around;
+    max-width: 100vw;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+}
+.contenedorheaders {
+    display: flex;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    justify-content: space-between;
+    height: 200px;
+}
+.logo {
+    width: 150px;
+    border-radius: 200px;
+    align-self: center;
+    justify-self: center;
+    
+}
+.mainalbum {
+    display: flex;
+    flex-direction: column;
+}
+.bodyhome {
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    background-size: cover;
+    overflow-x: hidden;
+}
+.buscador {
+    align-self: flex-start;
+    justify-self: flex-end;
+    display: flex;
+    margin-top: 2.5vh;
+    width: 225px;
+}
+#busqueda {
+    width: 225px;
+
+}
+.hiperindex {
+    text-decoration: none;
+}
+#fav{
+    text-decoration: none;
+    margin-top: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+.contenedorimg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+.mainhome {
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+}
+.contenedordiscos {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.cancionhija {
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(126, 126, 126, 0.5);
+    border: 3px black;
+    height: 360px;
+    padding: 5px;
+}
+.cancionhijasearch {
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(55, 201, 152, 50%);
+    border: 3px rgba(0, 0, 0, 0.75) solid;
+    height: 70px;
+    border-radius: 10px;
+    margin-top: 5px;
+    padding: 15px;
+}
+.cancionimg {
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    border: 3px black solid;
+    align-self: center;
+    
+}
+.cancionimg2 {
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    border: black solid;
+    align-self: center;
+    
+}
+.cancionimg3 {
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    border: 3px black solid ;
+    align-self: center;
+    
+}
+.cancionimgsearch {
+    width: 70px;
+    height: 70px;
+    
+    border: 3px white solid;
+    align-self: center;
+    
+}
+.artistahijagenero {
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(89, 89, 91, 0.6);
+    border: solid white 3px;
+    height: 360px;
+    border-radius: 10px;
+    color: white;
+}
+.artistahija {
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:rgba(126, 126, 126, 0.5);
+    border: 3px black;
+    height: 360px;
+    padding: 5px;
+    color: white;
+}
+.hiperlinkgeneros {
+    text-decoration: none;
+}
+
+.nombreartista {
+    font-size: 20px;
+    align-self: center ;
+    margin-bottom: 5px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+.nombreartistasearch {
+    font-size: 20px;
+    align-self: center ;
+    
+    color: white;
+    text-decoration: none;
+}
+.nombrealbum {
+    font-size: 13px;
+    align-self: center;
+    margin-top: 5px;
+    text-decoration: none;
+    color: white;
+}
+.nombrealbumartista {
+    font-size: 20px;
+    align-self: center;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+}
+.nombrealbumsearch {
+    font-size: 15px;
+    align-self: center;
+    
+    text-decoration: none;
+    color: white;
+}
+.descripcion {
+    font-size: 10px;
+    margin-top: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+.paginas {
+    
+    align-self: center;
+    text-decoration: none;
+    justify-content: space-between;
+    width: 225px;
+}
+.paginasindiv {
+    text-decoration: none;
+    color: white;
+    margin-left: 8px;
+}
+.albumhija {
+    background-color: rgba(126, 126, 126, 0.5);
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 3px black solid;
+    height: 360px;
+}
+.contenedoralbumes {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.contenedoralbumes2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.articlesearch {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+justify-content: space-around;
+align-content: center;
+}
+.articlesearch2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+justify-content: space-around;
+align-content: center;
+}
+.articlesearch3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+justify-content: space-around;
+align-content: center;
+}
+.leyendasinres{
+    text-align: center;
+}
+ .articleplaylist {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.botonplaylist{
+    margin-top: 10px;
+}
+.imagenesplaylist {
+    max-width: 100px;
+    max-height: 100px;
+    padding: 0px;
+    margin: 0px;
+}
+.logoplaylist {
+    border: 3px solid white;
+    max-height: 200px;
+    max-width: 200px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.listaplaylistcontenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cancionesplaylistpadre {
+    background-color: rgba(0, 0, 0, 75%);
+    border-radius: 20px;
+    border: 3px white solid;
+    width: 70vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+}
+.cancionesplaylisthija{
+    border: 2px white solid;
+    background-color: rgba(120, 113, 113, 0.596);
+    width: 60vw;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    max-height: 60px;
+    align-items: center;
+    
+}
+.imagencancionplaylist {
+    height: 60px;
+    margin-top: 2px;
+}
+.iconosplaylist {
+    display: flex;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 220px;
+}
+.botonplay {
+    margin-right: 10px;
+}
+.hiperplaylist {
+    text-decoration: none;
+    color: white;
+}
+.cancionplaylistpadre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.cancionplaylisthija {
+    border-radius: 20px;
+    border: 3px white solid;
+    background-color: rgba(0, 0, 0, 0.75);
+    margin: 10px;
+}
+.nombreplaylist {
+    margin: 10px;
+    font-size: 30px;
+} 
+.imgdiscosdetalle {
+    max-width: 200px;
+    border: 3px;
+    margin-top: 40px;
+} 
+
+.imgdiscosdetalle2 {
+    max-width: 200px;
+    border: 3px black solid;
+    margin-top: 40px;
+}
+.discosdetalleseccion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+/* contenedor gnral de detalle discos */ 
+.contenedorjs{
+    display: flex ;
+    background-color: rgba(126, 126, 126, 0.5);
+    width: 80vw;
+    border: 3px black solid;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.discosdetallepadre {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+.contenedoracancionesdisco{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.titulocanciondetalle{
+    text-align: center;
+}
+.hijacancionesdisco {
+    border: 3px rgb(9, 9, 9) solid;
+    width: 150px;
+    max-height: 250px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(8, 8, 8, 0.75) ;
+    margin-bottom: 40px;
+    margin-top:20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 7px;
+    border-radius: 10px;
+}
+/*<-- detalle discos -->*/
+.imgcanciondisco {
+    max-width: 120px;
+    border: 3px black solid;
+    margin-top: 20px;
+}
+.nombrecanciondiscodetalle{
+    margin-top: 40px;
+    font-size: 15px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.hiperdisco {
+    color: white;
+    text-decoration: none;
+}
+.nombrediscodetalle {
+    font-size: 40px;
+    text-align: center;
+}
+.artistaimg {
+    width: 100px;
+    height: 100px;
+    border: 3px white solid;
+}
+.artistaimggenero {
+    width: 170px;
+    height: 170px;
+    border: 3px white solid;
+}
+.cajatitulogeneros {
+    background-color:black;
+    border: white 3px solid;
+    width: 300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 50px;
+}
+.cajatitulogenerospadre{
+    display: flex;
+    justify-content: center;
+}
+
+.bodycanciones {
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+}
+.artistahija2 {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(126, 126, 126, 0.5);
+    border: 3px black solid;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.artistaimg1 {
+    max-width: 375px;
+    height: 375px;
+    margin: 10px;
+    align-self: center;
+    border-radius: 50%;
+}
+.contenedorartista {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.ordencajas {
+    display: flex;
+    flex-direction: column;
+}
+.artistanomdesc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgba(126, 126, 126, 0.5);
+    border: 3px black;
+    
+    border-radius: 40px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+.resultadoscoincide {
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+    margin-right: 20px;
+}
+.leyendabusqueda {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+.titulosearch {
+    margin-top: 20px;
+    text-align: center;
+}
+.mainsearch {
+    min-height: 64vh;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+.contenedorgeneros {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 45px;
+}
+.maingeneros {
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 529px;
+}
+.titulogeneros {
+    text-align: center;
+}
+
+.contenedordgenero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+/* contenedor genero especific*/
+.dgenerohija{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgb(78, 76, 76);
+    border: solid white 3px;
+    border-radius: 20px;
+    width: 400px;
+}
+.contenedorlistaartistas {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.contenedorgenerolista {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.listagenerohija {
+    background-color:rgb(99, 94, 94);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: solid white 3px;
+    height: 150px;
+    width: 600px;
+    border-radius: 10px;
+    margin-top: 10px;
+
+}
+.nombredgenero {
+    font-size: 30px;
+    align-self: center ;
+    color: white;
+}
+.nombredgeneroartista {
+    max-width: 40px;
+    font-size: 22px;
+    align-self: center ;
+    color: white;
+}
+.hipergenero {
+    text-decoration: none;
+}
+.buscadorheader {
+    width: 225px;
+    
+}
+.favoritoscontenedor {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 200px;
+}
+.articulocancion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.fotocanciondetalle {
+    border-radius: 30%;
+}
+
+.nombrebandacancion {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.articulocancionhija {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    background-color: rgba(126, 126, 126, 0.5);
+    align-items: center;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+.detallecanciondisco {
+    margin-top: 0px;
+    text-align: center
+}
+ .verplaylist {
+    text-decoration: none;
+    color: rgb(162, 173, 4);
+} 
+.hiperresultados{
+    text-decoration: none;
+    color: white;
+}
+.cajasearch {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 50vw;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    border: 3px white solid;
+    border-radius: 50px;
+    padding: 10px;
+    
+}
+.cajasearch4 {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 50vw;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    border: 3px white solid;
+    border-radius: 50px;
+    padding: 40px;
+    
+}
+.cajasearch5 {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 50vw;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    border: 3px white solid;
+    border-radius: 50px;
+    padding: 40px;
+    margin-bottom: 30px;
+    
+}
+.cajasearch3 {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 50vw;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    border: 3px white solid;
+    border-radius: 50px;
+    padding: 40px;
+    
+}
+.cajasearch2 {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 50vw;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    border: 3px white solid;
+    border-radius: 50px;
+    padding: 40px;
+    
+}
+
+
+.nombrecancionpodio {
+    font-size: 20px;
+    align-self: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+    align-items: center;
+    text-align: center;
+}
+
+.nombredescripcionpodio {
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.podiosegundotercero {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.podiocuartoquinto {
+    display: flex;
+    align-items: center;
+}
+
+.podioprimerlugar {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(126, 126, 126, 0.5);
+    border: 3px black;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    border-radius: 40px;
+    margin-bottom: 10px;
+}
+
+
+.fechapodio {
+    margin-bottom: 0;
+}
+
+.albumpodio {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.reproduccionespodio {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.tituloseccionmaroonv {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(126, 126, 126, 0.5);
+    border: 3px black ;
+    margin-bottom: 0;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+.titulosecciontop {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.tituloseccionpadre {
+    display: flex;
+    background-color: rgba(91, 91, 93, 0.6);
+    border-radius: 50px;
+    border: solid white 3px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.tituloseccionpadrecentrar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tituloseccionpadreartista {
+    display: flex;
+    background-color: rgba(91, 91, 93, 0.6);
+    border-radius: 50px;
+    border: 3px rgba(0, 0, 0, 0.75) solid;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.tituloseccionpadrecanciones {
+    display: flex;
+    background-color: rgba(91, 91, 93, 0.6);
+    border-radius: 50px;
+    border: 3px rgba(0, 0, 0, 0.75) solid;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.tituloseccionpadrediscos {
+    display: flex;
+    background-color: rgba(91, 91, 93, 0.6);
+    border-radius: 50px;
+    border: 3px rgba(0, 0, 0, 0.75) solid;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 40px; 
+    align-items: center;
+    justify-content: center;
+}
+.iframespotify {
+     border: 3px solid black;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+    background-color: black;
+    padding: 30px;
+    width: 250px;
+}
+.iframe {
+    height: 100px;
+    min-width: 300px;
+}
+.imggeneroelegido {
+    border: solid white 3px;
+}
+.artistanomdesctitulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(91, 91, 93, 0.6);
+    border: solid white 3px;
+    border-radius: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    height: 40px;
+    width: 120px;
+}
+.artistanomdesctitulocentrar{
+    display: flex;
+    justify-content: center;
+}
+.contenedorfav{
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 380px;
+    background-color: rgba(126, 126, 126, 0.5);
+    align-items: center;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+.imgdetailtrack {
+     border: 3px solid black
+}
+.nombrecancionplaylist{
+    font-size: 15px;
+}
+.playlistplay{
+    width: 200px;
+    height: 60px;
+    justify-self: flex-end;
+}
+.podioprimero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+    align-items: center;
+}
+#footersgeneros {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+#footersplaylist {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#bodygeneros {
+    position: relative;
+    min-height: 100vh;
+}
+
+ 
+#bodyplaylist {
+    position: relative;
+    min-height: 100vh;
+}
+.mainplaylist {
+    padding-bottom: 50px;
+}
+#footerssearch {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+#bodysearch {
+    position: relative;
+    min-height: 100vh;
+}
+
+
+
+/* Media Querys */
+@media (max-width: 420px) {
+    /* Header, Footer y Playlist */
+    .cancionplaylistpadre {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        flex-direction: row;
+    }
+    
+    
+     .cancionesplaylistpadre {
+        background-color: rgba(0, 0, 0, 75%);
+        border-radius: 20px;
+        border: 3px white solid;
+        width: 70vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 30px;
+        flex-wrap: wrap;
+    }
+    .imagencancionplaylist {
+        height: 60px;
+        margin-top: 10px;
+        border: 3px white solid;
+    }
+    .playlistplay{
+        width: 30vw;
+        height: 60px;
+        justify-self: flex-end;
+    }
+    .contenedorheaders {
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+    .paginas {
+        display: flex;
+        flex-direction: column;
+    }
+    .paginasindiv {
+        margin-top: 0.5vh;
+        margin-bottom: 0.5vh;
+    }
+    .bodyhome {
+        width: 100vw;
+    }
+    /* .logo {
+        width: 100px;
+        border-radius: 200px;
+        align-self: center;
+        justify-self: center;
+    }
+    .buscador {
+        align-self: flex-start;
+        justify-self: flex-end;
+        display: flex;
+        margin-top: 2.5vh;
+        max-width: 60px;
+    }
+    .buscadorheader {
+        width: 225px;
+    } */
+    #busqueda {
+        max-width: 100px;
+    
+    }
+    .cancionesplaylisthija{
+        border: 2px white solid;
+        background-color: rgba(91, 91, 93, 0.6);
+        width: 40vw;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-height: 300px;
+        padding-bottom: 10px;
+    };
+    .iconosplaylist {
+        display: flex;
+        font-size: 30px;
+        align-items: center;
+        justify-content: center;
+        margin-left: 30px;
+    }
+    .contenedornombres{
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        justify-content: space-around;
+        max-width: 100vw;
+        margin-left: 2.5vw;
+        margin-right: 2.5vw;
+        font-size: 10px;
+    }
+    /* Ahora Detalle generos */
+    .contenedordgenero{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .nombredgeneroartista{
+        font-size: 12px;
+    }
+ 
+    .contenedorgenerolista {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    .artistaimg {
+        max-width: 70px;
+        height: 70px;
+        border: 3px white solid;
+    }
+    /* Generos */
+
+    .artistahijagenero {
+        width: 300px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        background-color: rgba(91, 91, 93, 0.6);
+        border: solid white 3px;
+        height: 100px;
+        border-radius: 10px;
+        color: white;
+        margin-top: 10px;
+    }
+    .contenedorgeneros {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 45px;
+        flex-wrap: wrap;
+    }
+    .artistaimggenero {
+        max-width: 65px;
+        max-height: 65px;
+        margin-top: 0px;
+        border: 3px white solid;
+    }
+    .maingeneros {
+        margin-left: 30px;
+        margin-right: 30px;
+        padding-bottom: 120px;
+        min-height: 700px;
+    }
+    /* Detalle
+    /* Detail Track*/
+    .articulocancion {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .articulocancionhija {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 350px;
+        background-color: rgba(126, 126, 126, 0.5);
+        align-items: center;
+        border: 3px solid black;
+        border-radius: 10px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .contenedorfav{
+        width: 330px;
+    }
+    /*Detalle Disco */
+    .nombrediscodetalle {
+        font-size: 30px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .contenedoracancionesdisco{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .cajasearch {
+        background-color: rgba(0, 0, 0, 0.5);
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        min-width: 300px;
+        margin-top: 60px;
+        border: 3px white solid;
+        padding: 10px;
+    }
+    .cajasearch2 {
+        background-color: rgba(0, 0, 0, 0.5);
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        min-width: 300px;
+        margin-top: 60px;
+        border: 3px white solid;
+        padding: 10px;
+    }
+    .mainsearch {
+        display: flex;
+        flex-direction: column;
+        min-height: 606.5px;
+    }
+    /*Index*/
+    .contenedordiscos {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 40px;
+        margin: 0%;
+        overflow-x: hidden;
+    }
+    .cancionhija {
+        width: 300px;
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgba(126, 126, 126, 0.5);
+        border: 3px black;
+        height: 100px;
+        margin-left: 0px;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+   
+    .nombreartista {
+        font-size: 20px;
+        align-self: center ;
+        margin: 0px;
+        color: white;
+        text-decoration: none;
+        margin-left: 10px;
+    }
+    .nombrealbum {
+        font-size: 14px;
+        align-self: center;
+        margin: 0px;
+        margin-left: 10px;
+        text-decoration: none;
+        color: white;
+    }
+    .contenedoralbumes {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 40px;
+        margin: 0%;
+    }
+    .contenedoralbumes2 {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    .contenedoralbumes {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 0%;
+        margin-bottom: 40px;
+    }
+ */
+
+    /* artistas.html */
+    .contenedorartista {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .artistanomdesc {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        margin-bottom: 2vh;
+    }
+    .artistaspodioentero {
+        display: flex;
+        flex: wrap;
+        flex-direction: column;
+        margin-top: 2vh !important;
+    }
+    .podioprimero {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-bottom: 0 !important;
+        margin-top: 0 !important;
+    }
+    .podiosegundotercero {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+    .artistaimg1 {
+        max-width: 335px;
+        height: 335px;
+        margin: 10px;
+        align-self: center;
+        border-radius: 50%;
+    }
+    .podiocuartoquinto {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-top: 0 !important;
+    }
+    .podioprimerlugar {
+        margin-bottom: 2vh;
+        margin-top: 0;
+    }
+    .podiosegundolugar {
+        margin-bottom: 2vh;
+        margin-top: 0;
+        margin-right: 0 !important;
+    }
+    .podiotercerlugar{
+        margin-bottom: 2vh;
+        margin-top: 0;
+        margin-left: 0 !important;
+    }
+    .podiocuartolugar {
+        margin-bottom: 2vh;
+        margin-top: 0;
+        margin-right: 0 !important;
+    }
+    .podioquintolugar {
+        margin-bottom: 2vh;
+        margin-top: 0;
+        margin-left: 0 !important;
+    }
+    .titulosecciontop {
+        margin-bottom: 0 !important;
+    }
+    .nombrecancionplaylist {
+        text-align: center;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .cancionhijasearch {
+        width: 30vw;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+        height: auto;
+    }
+}
+#reproductor{
+    height: 70vh;
+}
